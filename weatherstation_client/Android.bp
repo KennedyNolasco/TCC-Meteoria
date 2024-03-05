@@ -1,0 +1,9 @@
+cc_binary {
+    name:         "weatherstation_client",
+    srcs:         [ "weatherstation_client.cpp" ],
+
+    shared_libs:  [ "weatherstation_lib" ],
+    required:     [ "weatherstation_lib" ],
+
+    vendor: true,
+}

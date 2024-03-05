@@ -1,0 +1,9 @@
+cc_binary {
+    name: "weatherstation_service_client",
+    srcs: ["weatherstation_service_client.cpp"],
+    vendor: true,
+    shared_libs: [
+        "libbinder_ndk",
+        "devtitans.weatherstation-V1-ndk",
+    ]
+}

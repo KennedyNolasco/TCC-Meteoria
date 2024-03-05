@@ -1,0 +1,3 @@
+
+/vendor/bin/hw/devtitans.weatherstation-service  u:object_r:weatherstation_daemon_exec:s0
+
